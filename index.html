@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Echo Reflect is a premium student wellbeing platform offering supportive guidance, stress insights, and confidence-building recommendations." />
+    <title>Echo Reflect | Student Wellbeing Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-loader" aria-hidden="true">
+      <div class="loader-ring"></div>
+      <p>Loading Echo Reflect...</p>
+    </div>
+
+    <header class="site-header sticky" role="banner">
+      <div class="container header-inner">
+        <a class="brand" href="#home">Echo Reflect</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="main-navigation">
+          <span class="sr-only">Open navigation menu</span>
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="main-navigation" class="site-nav" aria-label="Primary navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#work">Portfolio</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact" class="button button-sm">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="section hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Premium student wellbeing support</span>
+            <h1>Turn academic pressure into calm clarity with fast support.</h1>
+            <p>Echo Reflect helps students translate stress into practical reflections, guided check-ins, and smart recovery actions so they can stay steady through busy semesters.</p>
+            <div class="hero-actions">
+              <a href="#contact" class="button button-primary">Start your free consult</a>
+              <a href="#services" class="button button-secondary">See how it works</a>
+            </div>
+            <div class="hero-support" aria-label="Quick support response">
+              <label for="quick-issue" class="sr-only">Describe your academic concern</label>
+              <textarea id="quick-issue" rows="3" placeholder="Tell us your academic concern, for example 'stressed about tomorrow’s test'" aria-label="Academic concern input"></textarea>
+              <button id="quick-respond" class="button button-secondary">Quick support</button>
+              <div id="quick-response" class="hero-response" aria-live="polite">Enter a concern above and receive a fast support suggestion.</div>
+            </div>
+            <div class="hero-stat-grid" aria-label="Key platform metrics">
+              <div><strong>98%</strong><span>Positive engagement</span></div>
+              <div><strong>24/7</strong><span>Access to wellbeing guidance</span></div>
+              <div><strong>15m</strong><span>Avg response time</span></div>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="visual-card visual-card-top">
+              <p>How are you feeling today?</p>
+              <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80" alt="Student writing notes in a study space" />
+              <div class="visual-message">"Facing exam pressure? We'll help you restore focus with a calm, guided strategy."</div>
+            </div>
+            <div class="visual-panel">
+              <div class="panel-header">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+              <div class="panel-content">
+                <h2>Reflect session</h2>
+                <p>Input your academic concern and receive a tailored wellbeing reflection built for focus, balance, and progress.</p>
+                <div class="panel-pill">AI guidance</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section trusted-by" aria-label="Trusted by institutions">
+        <div class="container">
+          <p class="section-label">Trusted by</p>
+          <div class="trusted-grid">
+            <span>Stellenbosch U.</span>
+            <span>WITS</span>
+            <span>UCT</span>
+            <span>Varsity College</span>
+            <span>Rhodes University</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">About Echo Reflect</p>
+            <h2>Built for modern students who need calm, clear support.</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>Echo Reflect blends wellbeing coaching, academic focus tools, and empathetic support so students can stay productive, calm, and connected during pressure-filled terms.</p>
+              <ul>
+                <li>Built for students, advisors, and campus support teams.</li>
+                <li>Prioritizes privacy, rapid guidance, and an intuitive experience.</li>
+                <li>Responsive design, accessible navigation, and clear onboarding.</li>
+              </ul>
+            </div>
+            <div class="about-visual" aria-hidden="true">
+              <div class="visual-card">
+                <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=900&q=80" alt="Student smiling while using a laptop" />
+                <div class="visual-message">Grow confidence with practical advice, personalized rhythm checks, and thoughtful study pauses.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section services">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">What we offer</p>
+            <h2>Services tailored for student wellbeing and academic resilience.</h2>
+          </div>
+          <div class="card-grid">
+            <article class="service-card">
+              <div class="icon icon-circle">✓</div>
+              <h3>Reflection coaching</h3>
+              <p>Structured prompts and calm guidance designed to help you move from worry to clarity.</p>
+            </article>
+            <article class="service-card">
+              <div class="icon icon-circle">⚡</div>
+              <h3>Focus support</h3>
+              <p>Practical time-based routines and study rhythms to help you manage deadlines with confidence.</p>
+            </article>
+            <article class="service-card">
+              <div class="icon icon-circle">📊</div>
+              <h3>Sentiment insights</h3>
+              <p>Easy-to-read wellbeing trends that help you understand stress and progress over time.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section counters" aria-label="Platform metrics and outcomes">
+        <div class="container counters-grid">
+          <div class="counter-card">
+            <p class="counter-value">85%</p>
+            <p class="counter-label">Reduction in overwhelm during exam blocks</p>
+          </div>
+          <div class="counter-card">
+            <p class="counter-value">72%</p>
+            <p class="counter-label">Improved confidence after first session</p>
+          </div>
+          <div class="counter-card">
+            <p class="counter-value">4.9/5</p>
+            <p class="counter-label">Average satisfaction rating from student users</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section portfolio">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">Featured work</p>
+            <h2>High-impact student support solutions showcased.</h2>
+          </div>
+          <div class="portfolio-grid">
+            <article class="portfolio-card">
+              <div class="portfolio-media">
+                <img src="https://images.unsplash.com/photo-1509752911480-6b8f1a6d4996?auto=format&fit=crop&w=900&q=80" alt="Student planning on a desk with notes" />
+              </div>
+              <div class="portfolio-copy">
+                <h3>Study Well Planner</h3>
+                <p>A calming digital planner that blends wellbeing check-ins with milestone-based study schedules.</p>
+              </div>
+            </article>
+            <article class="portfolio-card">
+              <div class="portfolio-media">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Student relaxing with a notebook and coffee" />
+              </div>
+              <div class="portfolio-copy">
+                <h3>Reflection snapshot</h3>
+                <p>Daily emotional triggers mapped to practical pause and reset actions for campus learners.</p>
+              </div>
+            </article>
+            <article class="portfolio-card">
+              <div class="portfolio-media">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80" alt="Group of students discussing ideas around a laptop" />
+              </div>
+              <div class="portfolio-copy">
+                <h3>Support analytics</h3>
+                <p>Anonymous wellbeing trends that help student advisors understand stress peaks and resilience patterns.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section testimonials">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">Student voices</p>
+            <h2>Trusted reflections from our campus community.</h2>
+          </div>
+          <div class="testimonial-grid">
+            <article class="testimonial-card">
+              <p>"Echo Reflect made my exam week feel manageable. The daily check-ins were simple, supportive, and helped me focus on what matters."</p>
+              <div>
+                <strong>Thandiwe M.</strong>
+                <span>Business Science student</span>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <p>"I could see my stress patterns clearly, and the tailored guidance helped me build a healthier study rhythm."</p>
+              <div>
+                <strong>Liam J.</strong>
+                <span>Engineering student</span>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <p>"The platform felt premium and calm. It was the first service that actually felt designed for students like me."</p>
+              <div>
+                <strong>Ayesha K.</strong>
+                <span>Psychology student</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section pricing">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">Plans</p>
+            <h2>Flexible pricing for every campus journey.</h2>
+          </div>
+          <div class="pricing-grid" role="table" aria-label="Pricing plans">
+            <article class="pricing-card">
+              <h3>Starter</h3>
+              <p class="price">Free</p>
+              <ul>
+                <li>3 guided reflections per month</li>
+                <li>Weekly progress summary</li>
+                <li>Email-based wellbeing tips</li>
+              </ul>
+              <a href="#contact" class="button button-outline">Get started</a>
+            </article>
+            <article class="pricing-card featured">
+              <span class="badge">Popular</span>
+              <h3>Student</h3>
+              <p class="price">R149<span>/month</span></p>
+              <ul>
+                <li>Unlimited reflection sessions</li>
+                <li>Focus and mood analytics</li>
+                <li>Priority support</li>
+              </ul>
+              <a href="#contact" class="button button-primary">Choose plan</a>
+            </article>
+            <article class="pricing-card">
+              <h3>Campus</h3>
+              <p class="price">R299<span>/month</span></p>
+              <ul>
+                <li>Advisor dashboard access</li>
+                <li>Group wellbeing programs</li>
+                <li>Custom campaign support</li>
+              </ul>
+              <a href="#contact" class="button button-outline">Request demo</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section faq">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">Frequently asked questions</p>
+            <h2>How Echo Reflect supports your academic wellbeing.</h2>
+          </div>
+          <div class="faq-grid">
+            <article>
+              <h3>Is my data kept private?</h3>
+              <p>Yes. Student reflections are anonymized and protected by secure protocols so your wellbeing details stay safe.</p>
+            </article>
+            <article>
+              <h3>Can I use Echo Reflect on mobile?</h3>
+              <p>Yes. The interface is fully responsive and works smoothly across mobile, tablet, and desktop screens.</p>
+            </article>
+            <article>
+              <h3>What makes this different from a normal study planner?</h3>
+              <p>Echo Reflect blends emotional support with academic guidance, creating a smarter, more compassionate way to manage pressure.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container contact-grid">
+          <div class="contact-copy">
+            <p class="section-label">Get in touch</p>
+            <h2>Start a healthier academic journey today.</h2>
+            <p>Contact our student wellbeing team to request a demo, ask a question, or learn how Echo Reflect can support your campus goals.</p>
+            <div class="contact-info">
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:hello@echoreflect.co.za">hello@echoreflect.co.za</a>
+              </div>
+              <div>
+                <strong>Hours</strong>
+                <p>Mon–Fri, 08:00–18:00</p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" aria-label="Contact form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us what support you need." required></textarea>
+            <button type="submit" class="button button-primary">Send message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; 2026 Echo Reflect. Built for confident student wellbeing.</p>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
